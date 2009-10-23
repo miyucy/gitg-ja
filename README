@@ -1,0 +1,5 @@
+現在のステータス
+
+msgfmt --statistics -c -v -o /dev/null gitg-ja/ja.po
+9 個の翻訳メッセージ, 162 個の翻訳があいまいです, 4 個の未訳のメッセージ.
+

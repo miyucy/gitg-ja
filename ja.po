@@ -1,0 +1,964 @@
+# Japanese translation of gitg.
+# Copyright (C) 2009 gitg's COPYRIGHT HOLDER.
+# This file is distributed under the same license as the gitg package.
+# Yuki Miyauchi <fistfvck@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: gitg master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-29 13:49+0200\n"
+"PO-Revision-Date: 2009-10-23 12:57+0900\n"
+"Last-Translator: Yuki Miyauchi <fistfvck@gmail.com>\n"
+"Language-Team: Japanese <fistfvck@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/gitg.desktop.in.in.h:1
+#, fuzzy
+msgid "Git repository browser"
+msgstr "Gitリポジトリブラウザー"
+
+#. Translators: this is the application name as in g_set_application_name
+#: ../data/gitg.desktop.in.in.h:2 ../gitg/gitg.c:179
+#: ../gitg/gitg-window.c:1017 ../gitg/gitg-window.c:1030
+#: ../gitg/gitg-branch-actions.c:146 ../gitg/gitg-branch-actions.c:199
+#: ../gitg/gitg-window.ui.h:18
+msgid "gitg"
+msgstr "gitg"
+
+#: ../data/gitg.schemas.in.h:1
+#, fuzzy
+msgid "Column at Which Right Margin is Shown"
+msgstr "列には、右余白が表示されます"
+
+#: ../data/gitg.schemas.in.h:2
+#, fuzzy
+msgid "Filter Revisions When Searching"
+msgstr "検索時にリビジョンでフィルタリングする"
+
+#: ../data/gitg.schemas.in.h:3
+msgid ""
+"Setting that indicates when an inactive lane should be collapsed. Valid "
+"values are 0 - 4, where 0 indicates 'early' and 4 indicates 'late'."
+msgstr ""
+
+#: ../data/gitg.schemas.in.h:4
+#, fuzzy
+msgid "Show Right Margin in Commit Message View"
+msgstr "コミットメッセージビューの右に余白を表示する"
+
+#: ../data/gitg.schemas.in.h:5
+#, fuzzy
+msgid ""
+"Show a right margin indicator in the commit message view. This can be used "
+"to easily see where to break the commit message at a particular column."
+msgstr "メッセージを表示するコミットを表示する右側の余白インジケータ。これを使用することができます 簡単には特定の列でコミットメッセージを破るにしてください。 "
+
+#: ../data/gitg.schemas.in.h:6
+#, fuzzy
+msgid ""
+"The column at which the right margin is shown if the right-margin preference "
+"is set to TRUE."
+msgstr "右マージン設定にTRUEが設定されている場合、列の右マージンが表示される"
+
+#: ../data/gitg.schemas.in.h:7
+msgid "When to Collapse Inactive Lanes"
+msgstr ""
+
+#: ../data/gitg.schemas.in.h:8
+msgid ""
+"Whether searching filters the revisions in the history view instead of "
+"jumping to the first match."
+msgstr ""
+
+#: ../gitg/gitg.c:52
+#, fuzzy
+msgid "Show the application's version"
+msgstr "アプリケーションのバージョンを表示する"
+
+#: ../gitg/gitg.c:53
+#, fuzzy
+msgid "Start gitg in commit mode"
+msgstr "コミットモードを開始する"
+
+#: ../gitg/gitg.c:63
+msgid "- git repository viewer"
+msgstr "- git repository viewer"
+
+#: ../gitg/gitg-commit-view.c:208 ../gitg/gitg-revision-tree-view.c:183
+#, fuzzy
+msgid "Cannot display file content as text"
+msgstr "テキスト表示できません"
+
+#: ../gitg/gitg-commit-view.c:1437
+#, fuzzy
+msgid "You must first stage some changes before committing"
+msgstr "まず最初にコミットする前にいくつかの変更の段階があります"
+
+#: ../gitg/gitg-commit-view.c:1445
+#, fuzzy
+msgid "Please enter a commit message before committing"
+msgstr "コミットする前にコミットメッセージを入力してください"
+
+#: ../gitg/gitg-commit-view.c:1457
+#, fuzzy
+msgid ""
+"Your user name or email could not be retrieved for use in the sign off "
+"message"
+msgstr "あなたのユーザー名または電子メールメッセージを署名に使用するために取得することができませんでした"
+
+#: ../gitg/gitg-commit-view.c:1459
+#, fuzzy
+msgid "Something went wrong while trying to commit"
+msgstr "コミット中になんらかのエラーが発生した"
+
+#: ../gitg/gitg-commit-view.c:1618
+#, fuzzy
+msgid "Revert fail"
+msgstr "元に戻せませんでした"
+
+#: ../gitg/gitg-commit-view.c:1629
+#, fuzzy
+msgid "Are you sure you want to revert these changes?"
+msgstr "これらの変更を元に戻してもよろしいですか?"
+
+#: ../gitg/gitg-commit-view.c:1632
+#, fuzzy
+msgid "Reverting changes is permanent and cannot be undone"
+msgstr "変更を元に戻すと永久に取り消すことはできません"
+
+#: ../gitg/gitg-repository.c:591
+#, fuzzy
+msgid "Staged changes"
+msgstr "ステージ済の変更"
+
+#: ../gitg/gitg-repository.c:593
+#, fuzzy
+msgid "Unstaged changes"
+msgstr "未ステージの変更"
+
+#: ../gitg/gitg-repository.c:1155
+#, fuzzy
+msgid "Not a valid git repository"
+msgstr "gitリポジトリではありません"
+
+#: ../gitg/gitg-revision-tree-view.c:513
+#, fuzzy
+msgid "(Empty)"
+msgstr "(空)"
+
+#: ../gitg/gitg-window.c:423
+#, fuzzy
+msgid "Select branch"
+msgstr "ブランチ選択"
+
+#: ../gitg/gitg-window.c:485
+#, c-format, fuzzy
+msgid "Push local branch <%s> to remote branch <%s>"
+msgstr "ローカルブランチ <%s> を リモートブランチ <%s> にプッシュする"
+
+#: ../gitg/gitg-window.c:492
+#, c-format, fuzzy
+msgid "Merge/rebase local branch <%s> with/on local branch <%s>"
+msgstr "ローカルブランチ <%s> を/に リモートブランチ <%s> にマージ/リベースする"
+
+#: ../gitg/gitg-window.c:499
+#, c-format, fuzzy
+msgid "Merge/rebase local branch <%s> with/on remote branch <%s>"
+msgstr "ローカルブランチ <%s> を/に リモートブランチ <%s> にマージ/リベースする"
+
+#: ../gitg/gitg-window.c:506
+#, c-format, fuzzy
+msgid "Apply stash to local branch <%s>"
+msgstr "ローカルブランチ <%s> にstashを適用する"
+
+#: ../gitg/gitg-window.c:774
+#, fuzzy
+msgid "Begin loading repository"
+msgstr "リポジトリのロード中"
+
+#: ../gitg/gitg-window.c:783
+#, c-format, fuzzy
+msgid "Loaded %d revisions in %.2fs"
+msgstr "%d リビジョンを %.2f 秒でロードしました"
+
+#: ../gitg/gitg-window.c:794
+#, c-format, fuzzy
+msgid "Loading %d revisions..."
+msgstr " %d リビジョンをロード中..."
+
+#: ../gitg/gitg-window.c:803
+#, fuzzy
+msgid "Could not find git repository"
+msgstr "Gitリポジトリが見つかりません"
+
+#: ../gitg/gitg-window.c:995
+#, fuzzy
+msgid "All branches"
+msgstr "全ブランチ"
+
+#: ../gitg/gitg-window.c:1206
+#, fuzzy
+msgid "Open git repository"
+msgstr "Gitリポジトリを開く"
+
+#: ../gitg/gitg-window.c:1327
+msgid "gitg is a git repository viewer for gtk+/GNOME"
+msgstr "gitg is a git repository viewer for gtk+/GNOME"
+
+#: ../gitg/gitg-window.c:1328
+msgid ""
+"This program is free software; you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 2 of the License, or\n"
+"(at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 59 Temple Place, Suite 330,\n"
+"Boston, MA 02111-1307, USA."
+msgstr ""
+"This program is free software; you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 2 of the License, or\n"
+"(at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 59 Temple Place, Suite 330,\n"
+"Boston, MA 02111-1307, USA."
+
+#: ../gitg/gitg-window.c:1790
+#, fuzzy
+msgid "new"
+msgstr "新規作成"
+
+#: ../gitg/gitg-window.c:1898 ../gitg/gitg-window.c:1937
+#, c-format, fuzzy
+msgid "New local branch <%s>"
+msgstr "ローカルブランチ <%s> 新規作成"
+
+#: ../gitg/gitg-window.c:1910 ../gitg/gitg-branch-actions.c:316
+#, fuzzy
+msgid "Remove remote branch"
+msgstr "リモートブランチの削除する"
+
+#: ../gitg/gitg-window.c:1915
+#, fuzzy
+msgid "Checkout working copy"
+msgstr "ワーキングコピーをチェックアウトする"
+
+#: ../gitg/gitg-window.c:1916
+#, fuzzy
+msgid "Remove local branch"
+msgstr "ローカルブランチを削除する"
+
+#: ../gitg/gitg-window.c:1918
+#, fuzzy
+msgid "Rename local branch"
+msgstr "ローカルブランチをリネームする"
+
+#: ../gitg/gitg-window.c:1926 ../gitg/gitg-branch-actions.c:392
+#, fuzzy
+msgid "Remove stash"
+msgstr "stashを削除する"
+
+#: ../gitg/gitg-window.c:1932 ../gitg/gitg-branch-actions.c:454
+#: ../gitg/gitg-branch-actions.c:456
+#, fuzzy
+msgid "Remove tag"
+msgstr "タグを削除する"
+
+#: ../gitg/gitg-window.c:2107
+#, fuzzy
+msgid "Not all fields are correctly filled in"
+msgstr "すべてのフィールドが正しく入力されます"
+
+#: ../gitg/gitg-window.c:2109
+#, fuzzy
+msgid "Please make sure to fill in both the tag name and the commit message"
+msgstr "タグの名前とコミットメッセージの両方を入力してください"
+
+#: ../gitg/gitg-branch-actions.c:249
+#, c-format, fuzzy
+msgid "Branch <%s> could not be removed"
+msgstr "ブランチ <%s> が削除できませんでした"
+
+#: ../gitg/gitg-branch-actions.c:250
+#, fuzzy
+msgid ""
+"This usually means that the branch is not fully merged in HEAD. Do you want "
+"to forcefully remove the branch?"
+msgstr "通常、これはブランチが完全にHEADにマージされていないということです。 強制的にブランチを削除しますか？"
+
+#: ../gitg/gitg-branch-actions.c:251
+#, fuzzy
+msgid "Force remove"
+msgstr "強制削除"
+
+#: ../gitg/gitg-branch-actions.c:260
+#, c-format, fuzzy
+msgid "Branch <%s> could not be forcefully removed"
+msgstr "ブランチ <%s> の強制削除に失敗しました"
+
+#: ../gitg/gitg-branch-actions.c:293
+#, c-format, fuzzy
+msgid "Failed to remove remote branch <%s>."
+msgstr "リモートブランチ <%s> の削除に失敗しました"
+
+#: ../gitg/gitg-branch-actions.c:314
+#, c-format, fuzzy
+msgid "Are you sure you want to remove the remote branch <%s>?"
+msgstr "リモートブランチ <%s> を削除してもよろしいですか?"
+
+#: ../gitg/gitg-branch-actions.c:315
+#, fuzzy
+msgid "This permanently removes the remote branch."
+msgstr "これは永久的にリモートのブランチを削除します"
+
+#: ../gitg/gitg-branch-actions.c:332 ../gitg/gitg-menus.xml.h:9
+#, fuzzy
+msgid "Remove branch"
+msgstr "ブランチを削除する"
+
+#: ../gitg/gitg-branch-actions.c:390
+#, fuzzy
+msgid "Are you sure you want to remove this stash item?"
+msgstr "このstashを削除してもよろしいですか?"
+
+#: ../gitg/gitg-branch-actions.c:391
+#, fuzzy
+msgid "This permanently removes the stash item"
+msgstr "これは永久的にstashを削除します"
+
+#: ../gitg/gitg-branch-actions.c:418
+#, fuzzy
+msgid "Failed to remove stash"
+msgstr "stashの削除に失敗しました"
+
+#: ../gitg/gitg-branch-actions.c:419
+#, fuzzy
+msgid "The stash item could not be successfully removed"
+msgstr "正常にstashの削除ができませんでした"
+
+#: ../gitg/gitg-branch-actions.c:450
+#, c-format, fuzzy
+msgid "Are you sure you want to remove the tag <%s>?"
+msgstr "タグ <%s> を削除してもよろしいですか?"
+
+#: ../gitg/gitg-branch-actions.c:473
+#, c-format, fuzzy
+msgid "The tag <%s> could not be successfully removed"
+msgstr "正常に タグ <%s> の削除ができませんでした"
+
+#: ../gitg/gitg-branch-actions.c:477
+#, fuzzy
+msgid "Failed to remove tag"
+msgstr "タグの削除に失敗しました"
+
+#: ../gitg/gitg-branch-actions.c:534
+#, c-format, fuzzy
+msgid "Branch <%s> could not be renamed to <%s>"
+msgstr "ブランチ <%s> を <%s> にリネームできません"
+
+#: ../gitg/gitg-branch-actions.c:535
+#, fuzzy
+msgid ""
+"This usually means that a branch with that name already exists. Do you want "
+"to overwrite the branch?"
+msgstr "そのブランチ名は既に存在しています。ブランチを上書きしますか?"
+
+#: ../gitg/gitg-branch-actions.c:536
+#, fuzzy
+msgid "Force rename"
+msgstr "強制リネーム"
+
+#: ../gitg/gitg-branch-actions.c:545
+#, c-format, fuzzy
+msgid "Branch <%s> could not be forcefully renamed"
+msgstr "ブランチ <%s> は強制リネームできません"
+
+#: ../gitg/gitg-branch-actions.c:585 ../gitg/gitg-preferences.ui.h:12
+#: ../gitg/gitg-repository.ui.h:6 ../gitg/gitg-tag.ui.h:4
+#, fuzzy
+msgid "Name:"
+msgstr "名前:"
+
+#: ../gitg/gitg-branch-actions.c:693
+#, fuzzy
+msgid "Do you want to temporarily stash these changes?"
+msgstr "一時的にこれらの変更を隠しておきますか?"
+
+#: ../gitg/gitg-branch-actions.c:697
+#, fuzzy
+msgid "Do you want to stash and reapply these changes?"
+msgstr "これらの変更を隠して再適用しますか?"
+
+#: ../gitg/gitg-branch-actions.c:702
+#, fuzzy
+msgid "You have uncommited changes in your current working tree"
+msgstr "現在のワーキングツリーに未コミットの変更があります"
+
+# godt nok i tvivl her (igangsatte, trin, etape måske arrangerede ændringer)
+#: ../gitg/gitg-branch-actions.c:704
+#, fuzzy
+msgid "Stash changes"
+msgstr "変更をstashする"
+
+#: ../gitg/gitg-branch-actions.c:880
+#, fuzzy
+msgid "Failed to save current index state"
+msgstr "現在のインデックスの状態を保存に失敗しました"
+
+#: ../gitg/gitg-branch-actions.c:934 ../gitg/gitg-branch-actions.c:1216
+#: ../gitg/gitg-branch-actions.c:1508
+#, c-format, fuzzy
+msgid "Failed to checkout local branch <%s>"
+msgstr "ローカルブランチ <%s> のチェックアウトに失敗しました"
+
+#: ../gitg/gitg-branch-actions.c:972
+#, c-format, fuzzy
+msgid "Failed to checkout remote branch <%s> to local branch <%s>"
+msgstr "リモートブランチ <%s> から ローカルブランチ <%s> のチェックアウトに失敗しました"
+
+#: ../gitg/gitg-branch-actions.c:1012
+#, c-format, fuzzy
+msgid "Failed to checkout tag <%s> to local branch <%s>"
+msgstr "タグ <%s> から　ローカルブランチ <%s> のチェックアウトに失敗しました"
+
+#: ../gitg/gitg-branch-actions.c:1103
+#, c-format, fuzzy
+msgid "Failed to rebase %s branch <%s> onto %s branch <%s>"
+msgstr "%s ブランチ <%s> を %s ブランチ <%s> にリベースできませんでした"
+
+#: ../gitg/gitg-branch-actions.c:1107
+#, c-format, fuzzy
+msgid "Failed to merge %s branch <%s> with %s branch <%s>"
+msgstr "%s ブランチ <%s> を %s ブランチ <%s> にマージできませんでした"
+
+#: ../gitg/gitg-branch-actions.c:1115 ../gitg/gitg-branch-actions.c:1117
+#: ../gitg/gitg-branch-actions.c:1183 ../gitg/gitg-branch-actions.c:1185
+#: ../gitg/gitg-branch-actions.c:1224 ../gitg/gitg-branch-actions.c:1226
+#: ../gitg/gitg-branch-actions.c:1260 ../gitg/gitg-branch-actions.c:1262
+#: ../gitg/gitg-branch-actions.c:1307 ../gitg/gitg-branch-actions.c:1309
+#, fuzzy
+msgid "local"
+msgstr "ローカル"
+
+#: ../gitg/gitg-branch-actions.c:1115 ../gitg/gitg-branch-actions.c:1117
+#: ../gitg/gitg-branch-actions.c:1183 ../gitg/gitg-branch-actions.c:1185
+#: ../gitg/gitg-branch-actions.c:1224 ../gitg/gitg-branch-actions.c:1226
+#: ../gitg/gitg-branch-actions.c:1260 ../gitg/gitg-branch-actions.c:1262
+#: ../gitg/gitg-branch-actions.c:1307 ../gitg/gitg-branch-actions.c:1309
+#, fuzzy
+msgid "remote"
+msgstr "リモート"
+
+#: ../gitg/gitg-branch-actions.c:1134
+#, fuzzy
+msgid "The stashed changes have been stored to be reapplied manually"
+msgstr "stashされた変更は手動で再適用のため格納されました"
+
+#: ../gitg/gitg-branch-actions.c:1139
+#, fuzzy
+msgid "Failed to checkout previously checked out branch"
+msgstr "ブランチの以前のチェックアウトに失敗しました"
+
+#: ../gitg/gitg-branch-actions.c:1160
+#, fuzzy
+msgid "Failed to reapply stash correctly"
+msgstr "stashの再適用に失敗しました"
+
+#: ../gitg/gitg-branch-actions.c:1161
+#, fuzzy
+msgid ""
+"There might be unresolved conflicts in the working tree or index which you "
+"need to resolve manually"
+msgstr "ワーキングツリーかインデックス中の未解決の競合を手動で解決する必要がある可能性があります"
+
+#: ../gitg/gitg-branch-actions.c:1182
+#, fuzzy, c-format
+msgid "Are you sure you want to merge %s branch <%s> onto %s branch <%s>?"
+msgstr "%s ブランチ <%s> を %s ブランチ <%s> にマージしてもよろしいですか?"
+
+#: ../gitg/gitg-branch-actions.c:1190 ../gitg/gitg-branch-actions.c:1192
+#: ../gitg/gitg-branch-actions.c:1236 ../gitg/gitg-menus.xml.h:4
+#, fuzzy
+msgid "Merge"
+msgstr "マージ"
+
+#: ../gitg/gitg-branch-actions.c:1217
+#, fuzzy
+msgid "The branch on which to merge could not be checked out"
+msgstr "マージするブランチをチェックアウトすることができませんでした"
+
+#: ../gitg/gitg-branch-actions.c:1223
+#, c-format, fuzzy
+msgid "Merging %s branch <%s> onto %s branch <%s>"
+msgstr "%s ブランチ <%s> を %s ブランチ <%s> にマージ中"
+
+#: ../gitg/gitg-branch-actions.c:1259
+#, fuzzy, c-format
+msgid "Are you sure you want to rebase %s branch <%s> onto %s branch <%s>?"
+msgstr "%s ブランチ <%s> を %s ブランチ <%s> にリベースしてもよろしいですか?"
+
+#: ../gitg/gitg-branch-actions.c:1267 ../gitg/gitg-branch-actions.c:1269
+#: ../gitg/gitg-branch-actions.c:1319 ../gitg/gitg-menus.xml.h:7
+#, fuzzy
+msgid "Rebase"
+msgstr "リベース"
+
+#: ../gitg/gitg-branch-actions.c:1292
+#, fuzzy
+msgid "Unable to rebase"
+msgstr "リベースできません"
+
+#: ../gitg/gitg-branch-actions.c:1293
+#, fuzzy
+msgid ""
+"There are still uncommitted changes in your working tree and you are trying "
+"to rebase a branch onto the currently checked out branch. Either remove, "
+"stash or commit your changes first and try again"
+msgstr "現在チェックアウトしているブランチに未コミットの変更ある状態で、他のブランチ上にリベースすることはできません。変更箇所をstashにしまうか、コミットしてからリトライしてください"
+
+#: ../gitg/gitg-branch-actions.c:1306
+#, c-format, fuzzy
+msgid "Rebasing %s branch <%s> onto %s branch <%s>"
+msgstr "%s ブランチ <%s> を %s ブランチ <%s> にリベース中"
+
+#: ../gitg/gitg-branch-actions.c:1345
+#, c-format, fuzzy
+msgid "Failed to push local branch <%s> to remote <%s>"
+msgstr "ローカルブランチ <%s> を　リモート <%s> にプッシュできませんでした"
+
+#: ../gitg/gitg-branch-actions.c:1346
+#, fuzzy
+msgid ""
+"This usually means that the remote branch could not be fast-forwarded. Try "
+"fetching the latest changes."
+msgstr "通常、これはリモートブランチをfast-forwardedすることができなかったということです。最新の変更を取得してください。"
+
+#: ../gitg/gitg-branch-actions.c:1370
+#, fuzzy, c-format
+msgid "Are you sure you want to push <%s> to <%s>?"
+msgstr "<%s> を <%s> にプッシュしてもよろしいですか?"
+
+#: ../gitg/gitg-branch-actions.c:1376 ../gitg/gitg-branch-actions.c:1378
+#: ../gitg/gitg-branch-actions.c:1399 ../gitg/gitg-branch-actions.c:1432
+#: ../gitg/gitg-branch-actions.c:1434 ../gitg/gitg-branch-actions.c:1457
+#, fuzzy
+msgid "Push"
+msgstr "プッシュ"
+
+#: ../gitg/gitg-branch-actions.c:1391
+#, c-format, fuzzy
+msgid "Pushing local branch <%s> to remote branch <%s>"
+msgstr "ローカルブランチ <%s> を リモートブランチ <%s> にプッシュ"
+
+#: ../gitg/gitg-branch-actions.c:1426
+#, fuzzy, c-format
+msgid "Are you sure you want to push <%s> to remote <%s/%s>?"
+msgstr "ローカルブランチ <%s> を リモートブランチ <%s/%s> にプッシュしてもよろしいですか?"
+
+#: ../gitg/gitg-branch-actions.c:1444
+#, c-format, fuzzy
+msgid "Pushing local branch <%s> to remote branch <%s/%s>"
+msgstr "ローカルブランチ <%s> を リモートブランチ <%s/%s> にプッシュ"
+
+#: ../gitg/gitg-branch-actions.c:1481
+#, fuzzy, c-format
+msgid "Are you sure you want to apply the stash item to local branch <%s>?"
+msgstr "stashをローカルブランチ <%s> に適用してもよろしいですか?"
+
+#: ../gitg/gitg-branch-actions.c:1486 ../gitg/gitg-branch-actions.c:1488
+#, fuzzy
+msgid "Apply stash"
+msgstr "stashを適用"
+
+#: ../gitg/gitg-branch-actions.c:1527
+#, c-format, fuzzy
+msgid "The stash could not be applied to local branch <%s>"
+msgstr "ローカルブランチ<%s>にstashを適用できません"
+
+#: ../gitg/gitg-branch-actions.c:1531
+#, fuzzy
+msgid "Failed to apply stash"
+msgstr "stashの適用に失敗しました"
+
+#: ../gitg/gitg-branch-actions.c:1577
+#, fuzzy
+msgid ""
+"The tag object could not be successfully created. Please make sure you have "
+"a GPG key and the key is unlocked"
+msgstr "オブジェクトタグが正常に作成することができませんでした あなたがGPGキー持っていることと、それがロックされていないことを確認してください"
+
+#: ../gitg/gitg-branch-actions.c:1581
+#, fuzzy
+msgid "The tag object could not be successfully created"
+msgstr "タグオブジェクトが正常に作成できませんでした"
+
+#: ../gitg/gitg-branch-actions.c:1586
+#, fuzzy
+msgid "Failed to create tag"
+msgstr "タグの作成に失敗しました"
+
+#: ../gitg/gitg-repository-dialog.c:173 ../gitg/gitg-repository.ui.h:4
+#, fuzzy
+msgid "Fetch"
+msgstr "フェッチ"
+
+#: ../gitg/gitg-repository-dialog.c:178
+#, fuzzy
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: ../gitg/gitg-repository-dialog.c:441 ../gitg/gitg-repository.ui.h:7
+#: ../gitg/gitg-tag.ui.h:5
+#, fuzzy
+msgid "Properties"
+msgstr "プロパティ"
+
+#: ../gitg/gitg-window.ui.h:1
+#, fuzzy
+msgid "Add signed-off-by"
+msgstr "署名を付与する"
+
+#: ../gitg/gitg-window.ui.h:2
+#, fuzzy
+msgid "Amend"
+msgstr "アメンド"
+
+#: ../gitg/gitg-window.ui.h:3
+#, fuzzy
+msgid "Author:"
+msgstr "作者:"
+
+#: ../gitg/gitg-window.ui.h:4
+#, fuzzy
+msgid "Branch:"
+msgstr "ブランチ:"
+
+#: ../gitg/gitg-window.ui.h:5
+#, fuzzy
+msgid "Co_mmit message"
+msgstr "コミットメッセージ(_m)"
+
+#: ../gitg/gitg-window.ui.h:6 ../gitg/gitg-preferences.ui.h:5
+#, fuzzy
+msgid "Commit"
+msgstr "コミット"
+
+#: ../gitg/gitg-window.ui.h:7
+#, fuzzy
+msgid "Context:"
+msgstr "コンテキスト:"
+
+#: ../gitg/gitg-window.ui.h:8
+#, fuzzy
+msgid "Date:"
+msgstr "日付:"
+
+#: ../gitg/gitg-window.ui.h:9
+#, fuzzy
+msgid "Details"
+msgstr "詳細"
+
+#: ../gitg/gitg-window.ui.h:10
+#, fuzzy
+msgid "History"
+msgstr "履歴"
+
+#: ../gitg/gitg-window.ui.h:11
+#, fuzzy
+msgid "Parent:"
+msgstr "親:"
+
+#: ../gitg/gitg-window.ui.h:12
+msgid "SHA:"
+msgstr "SHA:"
+
+#: ../gitg/gitg-window.ui.h:13
+#, fuzzy
+msgid "Subject:"
+msgstr "サブジェクト:"
+
+#: ../gitg/gitg-window.ui.h:14
+#, fuzzy
+msgid "Tree"
+msgstr "ツリー"
+
+#: ../gitg/gitg-window.ui.h:15
+#, fuzzy
+msgid "_Changes"
+msgstr "変更(_C)"
+
+#: ../gitg/gitg-window.ui.h:16
+#, fuzzy
+msgid "_Staged"
+msgstr "ステージ済(_S)"
+
+#: ../gitg/gitg-window.ui.h:17
+#, fuzzy
+msgid "_Unstaged"
+msgstr "未ステージ(_U)"
+
+#: ../gitg/gitg-commit-menu.ui.h:1 ../gitg/gitg-ui.xml.h:1
+#, fuzzy
+msgid "Ignore"
+msgstr "無視"
+
+#: ../gitg/gitg-commit-menu.ui.h:2 ../gitg/gitg-ui.xml.h:3
+#, fuzzy
+msgid "Revert"
+msgstr "元に戻す"
+
+#: ../gitg/gitg-commit-menu.ui.h:3 ../gitg/gitg-ui.xml.h:4
+#, fuzzy
+msgid "Stage"
+msgstr "ステージ"
+
+#: ../gitg/gitg-commit-menu.ui.h:4 ../gitg/gitg-ui.xml.h:5
+#, fuzzy
+msgid "Unstage"
+msgstr "未ステージ"
+
+#: ../gitg/gitg-preferences.ui.h:1
+#, fuzzy
+msgid "<b>Commit Message</b>"
+msgstr "<b>コミットメッセージ</b>"
+
+#: ../gitg/gitg-preferences.ui.h:2
+#, fuzzy
+msgid "<b>History</b>"
+msgstr "<b>ヒストリ</b>"
+
+#: ../gitg/gitg-preferences.ui.h:3 ../gitg/gitg-repository.ui.h:1
+#, fuzzy
+msgid "<b>User</b>"
+msgstr "<b>ユーザ</b>"
+
+#: ../gitg/gitg-preferences.ui.h:4
+#, fuzzy
+msgid "Collapse inactive lanes"
+msgstr "非アクティブなレーンを折りたたむ"
+
+#: ../gitg/gitg-preferences.ui.h:6 ../gitg/gitg-repository.ui.h:2
+#, fuzzy
+msgid "Configuration"
+msgstr "コンフィグ"
+
+#: ../gitg/gitg-preferences.ui.h:7
+#, fuzzy
+msgid ""
+"Configure global git settings. This corresponds to the settings as stored in "
+"~/.gitconfig. Repository specific settings can be configured at the "
+"repository properties."
+msgstr "グローバルGitの設定を行います。 これは ~/.gitconfig に格納された設定と対応します。 特定のリポジトリの設定は、リポジトリのプロパティで設定することができます。"
+
+#: ../gitg/gitg-preferences.ui.h:8
+#, fuzzy
+msgid "Display right _margin"
+msgstr "右マージンを表示する"
+
+#: ../gitg/gitg-preferences.ui.h:9 ../gitg/gitg-repository.ui.h:3
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: ../gitg/gitg-preferences.ui.h:10
+#, fuzzy
+msgid "Early"
+msgstr "前"
+
+#: ../gitg/gitg-preferences.ui.h:11
+#, fuzzy
+msgid "Late"
+msgstr "後"
+
+#: ../gitg/gitg-preferences.ui.h:13
+#, fuzzy
+msgid "Preferences"
+msgstr "設定"
+
+#: ../gitg/gitg-preferences.ui.h:14
+#, fuzzy
+msgid "Preferences that apply to the commit view"
+msgstr "コミットビューに設定を適用する"
+
+#: ../gitg/gitg-preferences.ui.h:15
+#, fuzzy
+msgid "Preferences that apply to the revision view"
+msgstr "リビジョンビューに設定を適用する"
+
+#: ../gitg/gitg-preferences.ui.h:16
+msgid "Search filters revisions in the history view"
+msgstr ""
+
+#: ../gitg/gitg-preferences.ui.h:17
+#, fuzzy
+msgid "Show staged changes in history"
+msgstr "履歴中のステージングされた変更を表示する"
+
+#: ../gitg/gitg-preferences.ui.h:18
+#, fuzzy
+msgid "Show stash in history"
+msgstr "履歴中のstashを表示する"
+
+#: ../gitg/gitg-preferences.ui.h:19
+#, fuzzy
+msgid "Show unstaged changes in history"
+msgstr "履歴中の未ステージの変更を表示する"
+
+#: ../gitg/gitg-preferences.ui.h:20
+#, fuzzy
+msgid "View"
+msgstr "表示"
+
+#: ../gitg/gitg-preferences.ui.h:21
+#, fuzzy
+msgid "_Right margin at column:"
+msgstr "列の右マージン"
+
+#: ../gitg/gitg-repository.ui.h:5
+#, fuzzy
+msgid "Name"
+msgstr "名前"
+
+#: ../gitg/gitg-repository.ui.h:8
+#, fuzzy
+msgid "Remotes"
+msgstr "リモート"
+
+#: ../gitg/gitg-repository.ui.h:9
+msgid "URL"
+msgstr "URL"
+
+#: ../gitg/gitg-repository.ui.h:10
+msgid "gtk-add"
+msgstr "gtk-add"
+
+#: ../gitg/gitg-repository.ui.h:11
+msgid "gtk-remove"
+msgstr "gtk-remove"
+
+#: ../gitg/gitg-tag.ui.h:1
+#, fuzzy
+msgid "Create signed tag object"
+msgstr "署名付きタグの作成"
+
+#: ../gitg/gitg-tag.ui.h:2 ../gitg/gitg-menus.xml.h:3
+#, fuzzy
+msgid "Create tag"
+msgstr "タグの作成"
+
+#: ../gitg/gitg-tag.ui.h:3
+#, fuzzy
+msgid "Message:"
+msgstr "メッセージ"
+
+#: ../gitg/gitg-menus.xml.h:1
+#, fuzzy
+msgid "Apply stash to..."
+msgstr "stashを適用"
+
+#: ../gitg/gitg-menus.xml.h:2
+#, fuzzy
+msgid "Checkout branch"
+msgstr "ブランチをチェックアウト"
+
+#: ../gitg/gitg-menus.xml.h:5
+#, fuzzy
+msgid "Merge branch with..."
+msgstr "ブランチをマージ"
+
+#: ../gitg/gitg-menus.xml.h:6
+#, fuzzy
+msgid "Push branch to..."
+msgstr "ブランチをプッシュ"
+
+#: ../gitg/gitg-menus.xml.h:8
+#, fuzzy
+msgid "Rebase branch onto..."
+msgstr "ブランチをリベース"
+
+#: ../gitg/gitg-menus.xml.h:10
+#, fuzzy
+msgid "Rename branch"
+msgstr "ブランチのリネーム"
+
+#: ../gitg/gitg-menus.xml.h:11
+#, fuzzy
+msgid "_Author"
+msgstr "作者(_E)"
+
+#: ../gitg/gitg-menus.xml.h:12
+#, fuzzy
+msgid "_Date"
+msgstr "日付(_D)"
+
+#: ../gitg/gitg-menus.xml.h:13
+#, fuzzy
+msgid "_Hash"
+msgstr "ハッシュ(_H)"
+
+#: ../gitg/gitg-menus.xml.h:14
+#, fuzzy
+msgid "_Subject"
+msgstr "サブジェクト(_S)"
+
+#: ../gitg/gitg-ui.xml.h:2
+#, fuzzy
+msgid "R_ecently Opened"
+msgstr "最近開いたリポジトリ(_e)"
+
+#: ../gitg/gitg-ui.xml.h:6
+#, fuzzy
+msgid "_Edit"
+msgstr "編集(_E)"
+
+#: ../gitg/gitg-ui.xml.h:7
+#, fuzzy
+msgid "_File"
+msgstr "ファイル(_F)"
+
+#: ../gitg/gitg-ui.xml.h:8
+#, fuzzy
+msgid "_Help"
+msgstr "ヘルプ(_H)"
+
+#: ../gitg/gitg-ui.xml.h:9
+#, fuzzy
+msgid "_Open..."
+msgstr "開く(_O)"
+
+#: ../gitg/gitg-ui.xml.h:10
+#, fuzzy
+msgid "_Repository"
+msgstr "リポジトリ(_R)"
+
+#: ../gitg/gitg-ui.xml.h:11
+#, fuzzy
+msgid "_View"
+msgstr "表示(_V)"
+
+#~ msgid "Author"
+#~ msgstr "作者"
+
+#~ msgid "Date"
+#~ msgstr "日付"
+
+#~ msgid "Subject"
+#~ msgstr "サブジェクト"
+
+#~ msgid "Unstaged"
+#~ msgstr "未ステージ"
